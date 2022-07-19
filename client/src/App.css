@@ -1,0 +1,44 @@
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #293462;
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-right: 10%;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+}
+.blue {
+  color: #0a66c2;
+}
+.green {
+  color: #26b859;
+}
+.red {
+  color: #d63031;
+}
+.black {
+  color: #222222;
+}
+.headingRed{
+  color:#D61C4E;
+}
+.about-top {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.dp {
+  max-height: 120px;
+  float: left;
+  margin-right: 30px;
+}
+@media screen and (min-width:470px){
+.myName {
+  margin-top: 0px;
+}
+}
+.about{
+  text-align: justify;
+  max-width: 600px;
+}
