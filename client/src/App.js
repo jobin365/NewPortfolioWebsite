@@ -105,7 +105,7 @@ function App() {
           <div key={uuidv4()}>
             <h2>
               {name}
-              <IconLink URL={gitHubURL} icon={"fab fa-github fa-lg githubBlack"} />
+              <IconLink URL={gitHubURL} icon="fab fa-github fa-lg githubBlack" yesLeftMargin="true"/>
               <IconLink
                 URL={hostedURL}
                 icon={"fas fa-external-link-alt link-blue"}
