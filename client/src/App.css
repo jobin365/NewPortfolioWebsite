@@ -2,43 +2,44 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #293462;
   margin-left: 10%;
-  margin-top: 50px;
   margin-right: 10%;
-  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  max-width: 600px;
 }
-.blue {
+.heading {
+  color: #d61c4e;
+  margin-top: 50px;
+}
+
+/*About section*/
+
+.linkedinBlue {
   color: #0a66c2;
 }
-.green {
+.hackerrankGreen {
   color: #26b859;
 }
-.red {
+.gmailRed {
   color: #d63031;
 }
-.black {
+.githubBlack {
   color: #222222;
-}
-.headingRed{
-  color:#D61C4E;
 }
 .about-top {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 50px;
-  margin-top: 50px;
 }
 .dp {
   max-height: 120px;
   float: left;
   margin-right: 30px;
 }
-@media screen and (min-width:470px){
-.myName {
-  margin-top: 0px;
+@media screen and (min-width: 470px) {
+  .myName {
+    margin-top: 0px;
+  }
 }
-}
-.about{
+.justifyText {
   text-align: justify;
-  max-width: 600px;
 }
