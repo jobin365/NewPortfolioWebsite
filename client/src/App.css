@@ -1,16 +1,20 @@
+.topApp{
+  display: flex;
+  justify-content: center;
+}
+
 .App {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #293462;
-  margin-left: 10%;
-  margin-right: 10%;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  max-width: 600px;
+  max-width: 650px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .heading {
   color: #d61c4e;
   margin-top: 50px;
 }
-
 /*About section*/
 
 .linkedinBlue {
