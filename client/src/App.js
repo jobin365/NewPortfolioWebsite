@@ -74,9 +74,6 @@ function App() {
             masters in computer application.
           </p>
         </div>
-        <div className="videoresumeContainer">
-        <iframe className="videoresume" src="https://drive.google.com/file/d/1YMZ0NFF4I7kfX8RO853MR4WiKn7cso8X/preview" title="VideoResume" allow="autoplay"></iframe>
-        </div>
         <h1 className="heading">
           <i className="fas fa-bolt"></i> Skills
         </h1>
