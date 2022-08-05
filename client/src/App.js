@@ -12,6 +12,7 @@ import LogoAndName from "./components/LogoAndName";
 import LPU from "./images/lpu-min.png";
 import uoc from "./images/uoc.png";
 import { v4 as uuidv4 } from "uuid";
+import React from 'react';
 function App() {
   const skills = [
     ["React", reactLogo],
