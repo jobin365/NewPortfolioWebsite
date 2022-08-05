@@ -28,7 +28,8 @@ function App() {
       "https://sleepy-ridge-02151.herokuapp.com/",
       [
         "A todo list application that allows you to maintain multiple lists of tasks",
-        "Created using React, MongoDB and Express",
+        "Users can login or create an account with email and password or using Google",
+        "Created using React, Express, MongoDB, MUI and Passport",
       ],
     ],
   ];
