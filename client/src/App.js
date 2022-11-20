@@ -10,11 +10,13 @@ import eclerx from "./images/eclerx-min.png";
 import IconLink from "./components/IconLink";
 import LogoAndName from "./components/LogoAndName";
 import LPU from "./images/lpu-min.png";
+import sfmc from "./images/salesforce.png"
 import uoc from "./images/uoc.png";
 import { v4 as uuidv4 } from "uuid";
 import React from 'react';
 function App() {
   const skills = [
+    ["Marketing Cloud",sfmc],
     ["React", reactLogo],
     ["MongoDB", mongoLogo],
     ["Express", expressLogo],
@@ -24,7 +26,7 @@ function App() {
   ];
   const projects = [
     [
-      "GetItDone ",
+      "MyTasks ",
       "https://github.com/jobin365/GetItDone",
       "https://sleepy-ridge-02151.herokuapp.com/",
       [
@@ -45,7 +47,7 @@ function App() {
           <img alt="jobin" src={dp} className="dp"></img>
           <div className="about-inner">
             <h1 className="myName">Jobin John K</h1>
-            <h3>EmailOps at eClerx</h3>
+            <h3>Intern at eClerx</h3>
             <div className="links">
               <IconLink
                 URL="https://github.com/jobin365"
@@ -69,11 +71,9 @@ function App() {
         </div>
         <div className="about">
           <p className="justifyText">
-            Currently doing internship at eClerx and is getting trained on
-            EmailOps and Salesforce Marketing Cloud. Has self made experience in
-            full stack development. Checkout the GitHub page and portfolio
-            website. Graduated with a degree in computer science and pursuing
-            masters in computer application.
+            I am an intern at eClerx working as part of email ops team serving Fortune 150 client.
+            We are learning and using marketing cloud for developing, testing and deploying emails according to client requirements.
+            I have also completed several personal full stack development <a href="#projects">projects</a>.
           </p>
         </div>
         <h1 className="heading">
@@ -94,12 +94,14 @@ function App() {
         <p>June 2022 - Present</p>
         <ul className="justifyText">
           <li>
-            Currently undergoing training in emailops and salesforce marketing
-            cloud
+            Developing, testing and deploying emails
+          </li>
+          <li>
+            Learning and using marketing cloud
           </li>
         </ul>
 
-        <h1 className="heading">
+        <h1 className="heading" id="projects">
           <i className="fas fa-code"></i> Projects
         </h1>
         {projects.map((item) => {
